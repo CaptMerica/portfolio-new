@@ -33,9 +33,6 @@ body {
   color: #fff !important;
   font-family: 'Lora', sans-serif !important;
 }
-.App {
-  text-align: center;
-}
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
@@ -80,13 +77,13 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
 
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
-    opacity: 1;
+  opacity: 1;
 }
 
 span.navbar-text {
   display: flex;
   align-items: center;
-
+  
 }
 
 .social-icon {
@@ -95,27 +92,27 @@ span.navbar-text {
 }
 
 .social-icon a {
-    width: 42px;
-    height: 42px;
-    background: rgba(217, 217, 217, .1);
-    display: inline-flex;
-    border-radius: 50%;
-    margin-right: 6px;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    border: 1px solid rgba(255, 255, 255, .5);
+  width: 42px;
+  height: 42px;
+  background: rgba(217, 217, 217, .1);
+  display: inline-flex;
+  border-radius: 50%;
+  margin-right: 6px;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  border: 1px solid rgba(255, 255, 255, .5);
 }
 
 .social-icon a::before {
-    content: "";
-    width: 42px;
-    height: 42px;
-    position: absolute;
-    background-color: #ffffff;
-    border-radius: 50%;
-    transform: scale(0);
-transition: .3s ease-in-out;
+  content: "";
+  width: 42px;
+  height: 42px;
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 50%;
+  transform: scale(0);
+  transition: .3s ease-in-out;
 }
 
 .social-icon a img {
@@ -170,7 +167,7 @@ transition: .3s ease-in-out;
 nav.navbar .navbar-toggler:active,
 nav.navbar .navbar-toggler:focus {
   outline: none;
-    box-shadow: none;
+  box-shadow: none;
 }
 
 nav.navbar .navbar-toggler-icon {
@@ -219,6 +216,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-color: transparent;
+}
+
+.App {
+  text-align: center;
 }
 
 .App-logo {

@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import logo from '../assets/images/logo.svg'
 import navIcon1 from '../assets/images/nav-icon1.svg'
 import navIcon2 from '../assets/images/nav-icon2.svg'
@@ -48,9 +47,9 @@ export const NavBar = () => {
           </Nav>
           <span className="navbar-text">
             <div className="social-icon">
-              <a href="#"><img src={navIcon1} alt="" /></a>
-              <a href="#"><img src={navIcon2} alt="" /></a>
-              <a href="#"><img src={navIcon3} alt="" /></a>
+              <a href="https://www.linkedin.com/in/ryanmerica113/"><img src={navIcon1} alt="" /></a>
+              <a href="https://www.facebook.com/CaptMurica"><img src={navIcon2} alt="" /></a>
+              <a href="https://www.instagram.com/insomniamerica/"><img src={navIcon3} alt="" /></a>
             </div>
             <button className="vvd" onClick={() => console.log('connect')}><span>Let's Connect</span></button>
           </span>
