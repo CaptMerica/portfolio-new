@@ -53,9 +53,9 @@ export const Banner = () => {
         <Row className="align-items-center">
           <Col xs={12} med={6} xl={7}>
             <span className="tagline">Welcome to my Portfolio</span>
-            <h1>{`Hi I'm Ryan`}<span className="wrap">{text}</span></h1>
-            <p></p>
-            <button onClick={() => console.log('connet')}>Let's connect <ArrowRightCircle size={25}/></button>
+            <h1>{`Hi I'm Ryan! `}<span className="wrap">{text}</span></h1>
+            <p>I'm a full-stack software developer with a background in audio engineering.  I'm passionate about applying creativity and tehcnology to create innovative,user-friendly applications that solve real-world problems.  </p>
+            <button onClick={() => console.log('connet')}>Let's connect on LinkedIn <ArrowRightCircle size={25}/></button>
           </Col>
           <Col xs={12} med={6} xl={5}>
             <img src={headerImg} alt="Header Img" />

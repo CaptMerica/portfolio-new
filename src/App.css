@@ -30,8 +30,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
-  color: #ffffff !important;
+  background-color: whitesmoke !important;
+  color: black !important;
   font-family: 'Lora', sans-serif !important;
 }
 
@@ -69,7 +69,7 @@ nav.navbar a.navbar-brand {
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #fff;
+  color: whitesmoke;
   letter-spacing: .8px;
   padding: 0 25px;
   font-size: 18px;
@@ -228,7 +228,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  background-image: url('./assets/images/banner-bgbg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
